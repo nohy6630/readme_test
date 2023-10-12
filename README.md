@@ -3,46 +3,69 @@
 **Back-End :** <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/> <img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=flat-square&logo=IntelliJ IDEA&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white"/> <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=Swagger&logoColor=white"/> <img src="https://img.shields.io/badge/spring-6DB33F?style=flat-squre&logo=spring&logoColor=white">
 
 #### 기술 스택 선정 이유
-* Use Case 를 고려했을 때, 우리 서비스를 이용하는 고객은 실제 사용자(User)입니다. 
-* User는 Android 혹은 iOS 기기를 사용합니다. 
-### 🎉 ReactNative 선정 이유
-1️⃣ **Hot Reload와 Live Reload를 지원하는 크로스 플랫폼**   
-코드를 수정했을 때 다시 빌드할 필요 없이 바로 기기에서 변경사항을 확인 할 수 있습니다.
+### 🎉 Android
+0️⃣ **Android Studio**
+안드로이드 애플리케이션 개발에 최적화된 통합 개발 환경(IDE)
 
-2️⃣ **웹 확장에 유리한 크로스 플랫폼**      
-React-Native로 개발하고 React로 넘어가기에 수월합니다. 또한 react-native-web을 이용하여 웹 앱을 한 번에 만들 수 있습니다.
+1️⃣ **Coroutine**   
+네트워크 통신 과정에서 효율적인 비동기 처리를 위해 코루틴 사용
 
-3️⃣ **개발 툴이 필요 없는 크로스 플랫폼**      
-Xcode(ios simulator) 없이 IOS 개발이 가능하여, window 운영체제를 가진 개발 팀원도 IOS 개발에 참여 할 수 있습니다.
+2️⃣ **Android Jetpack**      
+재사용 가능한 컴포넌트와 공통 아키텍처 가이드라인을 제공하여 안정적이고 일관된 앱 개발
 
-4️⃣ **호환이 용이한 크로스 플랫폼**        
-android, ios 호환이 가능하여 유저의 사용성을 높여줄 수 있습니다. 
+3️⃣ **Navigation**      
+SAA(Single Acitivity Architecture) 구조에 적합한 화면 전환과 UI 구성 라이브러리
 
-5️⃣ **효율적인 크로스 플랫폼**       
-axios는 fetch와는 달리 response의 object를 json 메소드 없이도 바로 받을 수 있어 더 빠르고 효율적일 것입니다.
+4️⃣ **ViewModel**        
+UI와 데이터 영역을 분리하고, 화면 전환에 따른 데이터 저장을 담당
+
+5️⃣ **Flow**       
+Clean Architecture에서 LiveData 사용을 지양함에 따라 Flow로 대체
+
+6️⃣ **DataBinding**
+데이터와 UI를 연결하는 작업을 레이아웃(.xml)에서 처리하는 기술
+
+7️⃣ **Hilt**
+Android 환경에서 최적화된 DI(의존성 주입) 라이브러리
+
+8️⃣ **OkHttp & Retrofit2**
+REST API, HTTP 네트워크 통신 및 데이터베이스 접근에 사용되는 라이브러리
 
 
-### 🎉 Spring/ 선정 이유
+### 🎉 Backend
 
-1️⃣ **쉬운 개발환경을 제공하는 프레임워크**       
-스프링은 자바 및 JVM 환경의 대체언어들의 효율적이고 쉬운 엔터프라이즈 애플리케이션 개발 환경을 제공합니다.
+0️⃣ **Spring Boot**       
+스프링 프레임워크의 여러 기능을 쉽게 활용하여 안정적이고 확장 가능한 웹 애플리케이션을 구축하기 위함
 
-2️⃣ **구조 설계에 유용한 프레임워크**         
-기존의 웹, 또는 하드웨어, 데이터베이스등 전문적인 영역만 지원하는 프레임워크들과 다르게, 스프링은 전체를 설계하는 용도로 사용할 수 있습니다.
+1️⃣ **JPA**         
+핵심적인 비지니스 로직 개발에 집중할 수 있도록, 객체지향적인 관점에서 데이터베이스를 다루기 위함
 
-3️⃣ **트렌디한 개발 프레임워크**           
-Spring은 최근의 트렌드, 혹은 더 나은 프로그래밍 방법을 찾기 위해 트렌드에 맞추어 개발자들이 좀 더 능동적으로 개발할 수 있는 다양한 모듈들과 방법론을 적용시키고 있습니다.
+2️⃣ **Querydsl**           
+복잡한 요구사항을 만족하기 위한 동적 쿼리 등을 쉽게 구현하기 위함
 
-4️⃣ **오픈소스의 호환성을 제공하는 프레임워크**              
-스프링은 오픈소스로써 지속적인 업데이트가 되고 있으며 이전 버전들에 대한 강력한 호환성을 지원합니다.
+3️⃣ **AWS RDS mysql**              
+데이터베이스 인프라를 쉽게 구축하기 위해 AWS rds 를 사용함. 또한 상용화 된 RDBMS 중, 가장 대중화되어있고 레퍼런스가 풍부한 mysql 을 주 데이터베이스로 선정함
 
-5️⃣ **직관적이고 유연한 프레임워크**                    
-스프링은 직관적인 API를 제공하며, 만들고자하는 애플리케이션의 요구사항과 목적에 따라 유연하게 적용시킬수 있습니다.
+4️⃣ **AWS S3 storage**                    
+확장 가능한 백엔드 스토리지 솔루션으로서 데이터를 안전하게 저장하고 쉽게 관리하기 위함
+
+5️⃣ **Java 17**
+안정성을 보장하는 LTS(Long-Term Support) 버전이고, 팀원들의 기존 스택을 고려하여 JAVA 17 을 선정함
+
+6️⃣ **Spring Security**
+웹 애플리케이션의 보안 기능을 강화하며 사용자 인증 및 권한 관리를 손쉽게 제공하기 위함.
+
+7️⃣ **Redis**
+고성능의 인메모리 데이터 구조 저장소로, 캐싱 및 세션 관리 등 다양한 사용 사례에서 데이터의 빠른 조회와 저장을 위해 사용함
+
+8️⃣ **JWT**
+세션 관리 없이 사용자 인증 및 정보 전송을 위한 경량화된 토큰 방식을 사용하기 위함
 
 ## :pushpin: 네이밍룰
 - 파일 : CamelCase + SnakeCase
 - 클래스명 : PascalCase
 - 함수/변수명 : CamelCase
+
 ## 📑 커밋 컨벤션
 커밋 메세지는 **커밋 태그(이슈 번호): 커밋 내용** 으로 작성  
 ex) `git commit -m "Feat(#8): 로그인 기능 구현`
@@ -60,7 +83,7 @@ ex) `git commit -m "Feat(#8): 로그인 기능 구현`
 |Test|테스트 코드 추가|
 
 ## 📘 Git flow 전략
-![image](https://github.com/nohy6630/readme_test/assets/129354455/a49cd40a-1a50-4222-8e28-8bee3a866fdf)
+![image](https://github.com/nohy6630/readme_test/assets/129354455/a9deda9f-b901-479d-b8c7-51ca5bd4f431)
 |브랜치명|설명|
 |:---:|---|
 |main|출시 또는 배포 가능한 코드의 브랜치|
