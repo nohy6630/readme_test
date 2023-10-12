@@ -1,5 +1,6 @@
 ### 💻 기술 스택
 - Web
+    - https://img.shields.io/badge/Android%20Studio-%233DDC84?logo=androidstudio&logoColor=white 
 
 - Server
     - ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000.svg?style=flat-square&logo=intellij-idea&logoColor=white)
@@ -14,10 +15,10 @@
       ![EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat-square&logo=Amazon%20EC2&logoColor=white)
       ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white)
       ![Nginx](https://img.shields.io/badge/Nginx-%23009639.svg?style=flat-square&logo=nginx&logoColor=white)
-- Co-working Tool
     - ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=flat-square&logo=swagger&logoColor=white)
-      ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=flat-square&logo=notion&logoColor=white)
       ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+      https://img.shields.io/badge/Spring%20Security-%236DB33F?logo=springsecurity&logoColor=white
+
 
 #### 기술 스택 선정 이유
 ### 🎉 Android
