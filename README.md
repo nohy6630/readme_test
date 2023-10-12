@@ -1,6 +1,8 @@
 ### 💻 기술 스택
 - Web
     - ![Android Studio](https://img.shields.io/badge/Android%20Studio-%233DDC84?logo=androidstudio&logoColor=white)
+      ![Retrofit](https://img.shields.io/badge/Retrofit-%23009020)
+      ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-%234285F4?logo=jetpackcompose&logoColor=white)
 
 - Server
     - ![Spring Security](https://img.shields.io/badge/Spring%20Security-%236DB33F?logo=springsecurity&logoColor=white)
