@@ -111,4 +111,5 @@ ex) `git commit -m "Feat(#8): 로그인 기능 구현`
 
   
 ### 🔍 소프트웨어 아키텍쳐
+![Architecture](https://github.com/nohy6630/readme_test/assets/129354455/bda2072a-9739-4371-beb4-3c4f9f6e0682)
 
