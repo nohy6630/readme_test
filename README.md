@@ -1,6 +1,6 @@
 ### 💻 기술 스택
 - Web
-    - https://img.shields.io/badge/Android%20Studio-%233DDC84?logo=androidstudio&logoColor=white 
+    - ![Android Studio](https://img.shields.io/badge/Android%20Studio-%233DDC84?logo=androidstudio&logoColor=white)
 
 - Server
     - ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000.svg?style=flat-square&logo=intellij-idea&logoColor=white)
@@ -17,7 +17,7 @@
       ![Nginx](https://img.shields.io/badge/Nginx-%23009639.svg?style=flat-square&logo=nginx&logoColor=white)
     - ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=flat-square&logo=swagger&logoColor=white)
       ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-      https://img.shields.io/badge/Spring%20Security-%236DB33F?logo=springsecurity&logoColor=white
+      ![Spring Security](https://img.shields.io/badge/Spring%20Security-%236DB33F?logo=springsecurity&logoColor=white)
 
 
 #### 기술 스택 선정 이유
@@ -111,4 +111,4 @@ ex) `git commit -m "Feat(#8): 로그인 기능 구현`
 
   
 ### 🔍 소프트웨어 아키텍쳐
-![KakaoTalk_20221014_222429596](https://user-images.githubusercontent.com/115769126/195902499-86655519-bf4b-4741-b533-e74c242a8b93.png)
+
