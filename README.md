@@ -19,16 +19,16 @@ SAA(Single Acitivity Architecture) 구조에 적합한 화면 전환과 UI 구�
 4️⃣ **ViewModel**        
 UI와 데이터 영역을 분리하고, 화면 전환에 따른 데이터 저장을 담당
 
-5️⃣ **Flow**       
+5️⃣ **Flow**         
 Clean Architecture에서 LiveData 사용을 지양함에 따라 Flow로 대체
 
-6️⃣ **DataBinding**
+6️⃣ **DataBinding**   
 데이터와 UI를 연결하는 작업을 레이아웃(.xml)에서 처리하는 기술
 
-7️⃣ **Hilt**
+7️⃣ **Hilt**   
 Android 환경에서 최적화된 DI(의존성 주입) 라이브러리
 
-8️⃣ **OkHttp & Retrofit2**
+8️⃣ **OkHttp & Retrofit2**   
 REST API, HTTP 네트워크 통신 및 데이터베이스 접근에 사용되는 라이브러리
 
 
