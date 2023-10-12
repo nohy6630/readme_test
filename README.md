@@ -4,7 +4,7 @@
 
 #### 기술 스택 선정 이유
 ### 🎉 Android
-0️⃣ **Android Studio**
+0️⃣ **Android Studio**   
 안드로이드 애플리케이션 개발에 최적화된 통합 개발 환경(IDE)
 
 1️⃣ **Coroutine**   
