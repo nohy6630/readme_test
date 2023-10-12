@@ -60,8 +60,7 @@ ex) `git commit -m "Feat(#8): 로그인 기능 구현`
 |Test|테스트 코드 추가|
 
 ## 📘 Git flow 전략
-![image](https://github.com/nohy6630/readme_test/assets/129354455/7cdbf4c9-7585-4736-ac01-b3bd2e61e8e4)
-
+![image](https://github.com/nohy6630/readme_test/assets/129354455/a49cd40a-1a50-4222-8e28-8bee3a866fdf)
 |브랜치명|설명|
 |:---:|---|
 |main|출시 또는 배포 가능한 코드의 브랜치|
