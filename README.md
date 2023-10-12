@@ -101,7 +101,7 @@ ex) `git commit -m "Feat(#8): 로그인 기능 구현`
 |Test|테스트 코드 추가|
 
 ## 📘 Git flow 전략
-![image](https://github.com/nohy6630/readme_test/assets/129354455/a9deda9f-b901-479d-b8c7-51ca5bd4f431)
+![image](https://github.com/nohy6630/readme_test/assets/129354455/c39dfa00-4d8a-4d7b-b0f5-262ec544b12a)
 |브랜치명|설명|
 |:---:|---|
 |main|출시 또는 배포 가능한 코드의 브랜치|
@@ -111,5 +111,6 @@ ex) `git commit -m "Feat(#8): 로그인 기능 구현`
 
   
 ### 🔍 소프트웨어 아키텍쳐
-![Architecture](https://github.com/nohy6630/readme_test/assets/129354455/bda2072a-9739-4371-beb4-3c4f9f6e0682)
+![image](https://github.com/nohy6630/readme_test/assets/129354455/6f0322dd-2f0b-4621-be98-81292f73eb58)
+
 
