@@ -183,11 +183,11 @@
 | STEP 3 | 대피로 | 후원 | 펀딩 참여자 확보에 도움 |
 | STEP 4 | 후원사 | 대피 | 수수료 지급 및 펀딩 관련 도움 제공  |
 
-<br><br>
+<br>
 
 ![수익모델 이미지](./image/Evacuation_revenue_img.png)
 
-<br><br>
+<br><br><br>
 
 ## **🎨 디자인 무드보드**
 
