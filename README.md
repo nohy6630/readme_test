@@ -199,10 +199,10 @@
 
 ## **💻 Technology**
 
-### 🔍 System Architecture
+## 🔍 System Architecture
 ![image](https://github.com/nohy6630/readme_test/assets/129354455/6f0322dd-2f0b-4621-be98-81292f73eb58)
 
-### 💻 기술 스택
+## 💻 기술 스택
 - Web
     - ![Android Studio](https://img.shields.io/badge/Android%20Studio-%233DDC84?logo=androidstudio&logoColor=white)
       ![Retrofit](https://img.shields.io/badge/Retrofit-%23009020)
@@ -221,7 +221,7 @@
       ![Redis](https://img.shields.io/badge/Redis-%23DC382D?logo=redis&logoColor=white) 
 
 
-#### 기술 스택 선정 이유
+## 기술 스택 선정 이유
 ### 🎉 Android
 0️⃣ **Android Studio**   
 안드로이드 애플리케이션 개발에 최적화된 통합 개발 환경(IDE)
