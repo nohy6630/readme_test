@@ -3,11 +3,6 @@
 
 ![image](https://github.com/nohy6630/readme_test/assets/129354455/c7686f66-7968-4dbe-a765-723c03e965b1)
 
-
-<br>
-
-> ‘대피로’는 위기 상황이 발생했을때 정확하고 신속하게 대응할 수 있도록 돕는 안전•재난 알림 서비스입니다. 안전이라는 서비스 정체성을 살리며 신뢰성 상기시킬 수 있는 오렌지와 쿨그레이 컬러를 선정하였으며, 단순하고 직관적인 UI 디자인을 통해 사용자가 위기 상황을 정확하게 인지할 수 있도록 돕습니다.
-
 <br>
 
 ## 서비스 소개를 적어주세요.
@@ -193,7 +188,10 @@
 ![수익모델 이미지](./image/Evacuation_revenue_img.png)
 ## **🎨 디자인 무드보드**
 
-<img width="848" alt="KakaoTalk_Photo_2023-10-04-02-51-36" src="https://github.com/kusitms-com/28th_Semi_README/assets/115339354/982e06ae-9957-487c-b5d3-10c7f369fcbb">
+![image](https://github.com/nohy6630/readme_test/assets/129354455/b54af682-bb3e-42ec-b409-61505cd9f8ff)
+![image](https://github.com/nohy6630/readme_test/assets/129354455/6b0eeafd-c83c-4d54-bcbc-4c1fea20fdb6)
+<br>
+‘대피로’는 위기 상황이 발생했을때 정확하고 신속하게 대응할 수 있도록 돕는 안전•재난 알림 서비스입니다. 안전이라는 서비스 정체성을 살리며 신뢰성 상기시킬 수 있는 오렌지와 쿨그레이 컬러를 선정하였으며, 단순하고 직관적인 UI 디자인을 통해 사용자가 위기 상황을 정확하게 인지할 수 있도록 돕습니다.
 
 <br><br>
 
