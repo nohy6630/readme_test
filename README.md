@@ -97,7 +97,7 @@
 
 
 ![설문조사 이미지](./image/Evacuation_Market.png)
-<img src="./image/Evacuation_Market.png" width="1000" height="1000">
+<img src="./image/Evacuation_Market.png" width="500" height="500">
 <br>
 
 ### 3️⃣ 유저리서치 분석
