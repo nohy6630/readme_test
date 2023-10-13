@@ -166,14 +166,14 @@
 **재난 정보 파악**
 
 ![재난정보 흐름](./image/Evacuation_Informations_Flow.png)
-<img src="./image/Evacuation_Informations_Flow.png" width="700" height="700"/>
+<img src="./image/Evacuation_Informations_Flow.png" width="2496" height="1404"/>
 
 <br>
 
 **피해 지역 후원**
 
 ![후원 흐름](./image/Evacuation_supports_flow.png)
-<img src="./image/Evacuation_supports_flow.png" width="700" height="700"/>
+<img src="./image/Evacuation_supports_flow.png" width="2496" height="1404"/>
 
 <br> 
 
