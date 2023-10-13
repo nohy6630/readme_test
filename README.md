@@ -1,7 +1,8 @@
 
 # 🌟 서비스명
 
-![메인 이미지](./image/Evacuation_main.jpg)
+![image](https://github.com/nohy6630/readme_test/assets/129354455/c7686f66-7968-4dbe-a765-723c03e965b1)
+
 
 <br>
 
