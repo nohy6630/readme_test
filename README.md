@@ -97,9 +97,9 @@
 
 
 
-<center>
-<img src="./image/Evacuation_Market.png" width="700" height="700">
-</center>
+
+<img src="./image/Evacuation_Market.png" width="700" height="700"/>
+
 <br>
 
 ### 3️⃣ 유저리서치 분석
