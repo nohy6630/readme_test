@@ -207,11 +207,14 @@
 ## **💻 Technology**
 
 ## 🔍 System Architecture
-![대피로 서비스 아키텍쳐](https://github.com/kusitms-com/28th_Meetup_TeamG_Daepiro_front/assets/129354455/3c606d99-e054-4a59-9724-43a99811ebee)
-![image](https://github.com/kusitms-com/28th_Meetup_TeamG_Daepiro_front/assets/129354455/4b05698c-49a1-47a2-bebf-e13964415c2c)
-
+![대피로 서비스 아키텍쳐](https://github.com/nohy6630/readme_test/assets/129354455/e66ce90b-f032-483e-80c4-28e391038ab0)
 
 ## 🔍 Deploy Flow
+![AWS 네트워크 다이어그램](https://github.com/nohy6630/readme_test/assets/129354455/4d97d478-536a-4df4-838a-ec1975a832ca)
+
+
+## 🔍 재난문자 발생 로직
+![image](https://github.com/nohy6630/readme_test/assets/129354455/c9fa3c8e-9999-4141-a076-045cf334df56)
 
 
 
