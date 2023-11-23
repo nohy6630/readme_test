@@ -309,63 +309,28 @@
 
 
 ## 기술 스택 선정 이유
-### 🎉 Android
-* **Android Studio**   
-안드로이드 애플리케이션 개발에 최적화된 통합 개발 환경(IDE)
+### Backend
 
-* **Coroutine**   
-네트워크 통신 과정에서 효율적인 비동기 처리를 위해 코루틴 사용
+| 기술 스택 | 설명 |
+|-----------|------|
+| **Spring Boot** | 스프링 프레임워크의 웹 애플리케이션을 구축하기 위한 Spring Boot 이용 |
+| **Redis** | 댓글 및 게시글의 좋아요의 API 사용 중 발생하는 동시성 문제에 잘 대응하기 위해 Redis 사용. Redis 인프라가 구축되어 있어 RDB단에서 lock을 거는 방법 대신 Redis 분산락 적용. 유효시간이 존재하는 refresh token과 access token을 Redis에 저장하여, 토큰 생명 주기를 나타내는 TTL 기능을 사용 |
+| **Spring Data JPA + Querydsl** | Spring Data JPA로 관계지향적인 패러다임과 객체지향적인 패러다임 간 불일치를 매핑. Querydsl로 서비스에서 요구하는 복잡한 비즈니스 로직을 만족하기 위한 동적 쿼리 구현 |
+| **Rest Template + Html Unit** | Rest Template로 공공데이터포털에서 제공하는 실시간 재난문자 API와의 통신. Html Unit으로 재난문자를 카테고리화하기 위한 국민재난안전포털 웹사이트 크롤링 |
+| **JIB** | 자바 어플리케이션을 빠르게 컨테이너화 할 수 있도록 도와주는 구글 오픈 소스 사용. 도커 없이 Gradle 기반으로 빌드 수행하여 컨테이너 이미지 빠르게 생성 및 Docker hub에 push |
+| **Spring Security + JWT + OAuth2** | 웹 애플리케이션의 보안 기능 강화 및 사용자 인증 및 권한 관리를 위한 Spring Security 사용. JWT와 OAuth2로 세션 관리 없이 사용자 인증 및 정보 전송, 외부 소셜 서비스를 통한 안전한 로그인 구현 |
+| **AWS** | AWS EC2로 가상 서버 빠르게 구축 및 관리. AWS RDS MySQL로 데이터베이스 인프라 구축. AWS S3로 대용량 파일 저장. AWS Cloud Watch로 로그 수집/제공 및 효과적인 모니터링 수행 |
 
-* **Android Jetpack**      
-재사용 가능한 컴포넌트와 공통 아키텍처 가이드라인을 제공하여 안정적이고 일관된 앱 개발
+### Frontend
 
-* **Navigation**      
-SAA(Single Acitivity Architecture) 구조에 적합한 화면 전환과 UI 구성 라이브러리
+| 기술 스택 | 설명 |
+|-----------|------|
+| **Android OS** | 가장 널리 사용되는 모바일 운영체제로 서비스 제공 |
+| **Clean Architecture** | Domain Layer (비즈니스 로직, Usecase, Repository 포함), Data Layer (Repository 구현체, 데이터 입출력 Data Source, Entity 포함), Presentation Layer (MVVM 패턴 사용, UI 구성 및 View와 ViewModel로 구성) |
+| **Dagger-Hilt** | Clean Architecture의 각 계층에서 필요한 객체 생성 및 의존성 주입을 위한 Dagger-Hilt 사용 |
+| **Android Jetpack** | ViewModel, Navigation, Flow, LiveData, Work Manager, Data Store, DataBinding 등을 포함하는 Android Jetpack 라이브러리 활용 |
+| **Retrofit** | RESTful API 호출을 위한 Retrofit 사용 |
 
-* **ViewModel**        
-UI와 데이터 영역을 분리하고, 화면 전환에 따른 데이터 저장을 담당
-
-* **Flow**         
-Clean Architecture에서 LiveData 사용을 지양함에 따라 Flow로 대체
-
-* **DataBinding**   
-데이터와 UI를 연결하는 작업을 레이아웃(.xml)에서 처리하는 기술
-
-* **Hilt**   
-Android 환경에서 최적화된 DI(의존성 주입) 라이브러리
-
-* **OkHttp & Retrofit2**   
-REST API, HTTP 네트워크 통신 및 데이터베이스 접근에 사용되는 라이브러리
-
-
-### 🎉 Backend
-
-* **Spring Boot**       
-스프링 프레임워크의 여러 기능을 쉽게 활용하여 안정적이고 확장 가능한 웹 애플리케이션을 구축하기 위함
-
-* **JPA**         
-핵심적인 비지니스 로직 개발에 집중할 수 있도록, 객체지향적인 관점에서 데이터베이스를 다루기 위함
-
-* **Querydsl**           
-복잡한 요구사항을 만족하기 위한 동적 쿼리 등을 쉽게 구현하기 위함
-
-* **AWS RDS mysql**              
-데이터베이스 인프라를 쉽게 구축하기 위해 AWS rds 를 사용함. 또한 상용화 된 RDBMS 중, 가장 대중화되어있고 레퍼런스가 풍부한 mysql 을 주 데이터베이스로 선정함
-
-* **AWS S3 storage**                    
-확장 가능한 백엔드 스토리지 솔루션으로서 데이터를 안전하게 저장하고 쉽게 관리하기 위함
-
-* **Java 17**   
-안정성을 보장하는 LTS(Long-Term Support) 버전이고, 팀원들의 기존 스택을 고려하여 JAVA 17 을 선정함
-
-* **Spring Security**   
-웹 애플리케이션의 보안 기능을 강화하며 사용자 인증 및 권한 관리를 손쉽게 제공하기 위함.
-
-* **Redis**   
-고성능의 인메모리 데이터 구조 저장소로, 캐싱 및 세션 관리 등 다양한 사용 사례에서 데이터의 빠른 조회와 저장을 위해 사용함
-
-* **JWT**   
-세션 관리 없이 사용자 인증 및 정보 전송을 위한 경량화된 토큰 방식을 사용하기 위함
 
 ## 🔖 Naming Rules
 - 파일 : CamelCase + SnakeCase
